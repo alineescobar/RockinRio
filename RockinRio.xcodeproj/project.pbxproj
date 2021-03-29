@@ -11,6 +11,7 @@
 		16DDC92A26124C38001CAF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC92926124C38001CAF51 /* ContentView.swift */; };
 		16DDC92C26124C3A001CAF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDC92B26124C3A001CAF51 /* Assets.xcassets */; };
 		16DDC92F26124C3A001CAF51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDC92E26124C3A001CAF51 /* Preview Assets.xcassets */; };
+		16DDC93826125771001CAF51 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC93726125771001CAF51 /* Show.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		16DDC92B26124C3A001CAF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16DDC92E26124C3A001CAF51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		16DDC93026124C3A001CAF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DDC93726125771001CAF51 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				16DDC92726124C38001CAF51 /* RockinRioApp.swift */,
 				16DDC92926124C38001CAF51 /* ContentView.swift */,
+				16DDC93726125771001CAF51 /* Show.swift */,
 				16DDC92B26124C3A001CAF51 /* Assets.xcassets */,
 				16DDC93026124C3A001CAF51 /* Info.plist */,
 				16DDC92D26124C3A001CAF51 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DDC93826125771001CAF51 /* Show.swift in Sources */,
 				16DDC92A26124C38001CAF51 /* ContentView.swift in Sources */,
 				16DDC92826124C38001CAF51 /* RockinRioApp.swift in Sources */,
 			);
