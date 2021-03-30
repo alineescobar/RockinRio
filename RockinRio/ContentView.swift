@@ -19,10 +19,7 @@ struct ContentView: View {
                 case .programacao:
                     Text("Tela de programação")
                 case .minhaAgenda:
-                    Text("Minha agenda")
-//                    MinhaAgenda()
-//                        .ignoresSafeArea()
-//                        .edgesIgnoringSafeArea(.bottom)
+                    Text("Tela da minha agenda")
                 case .perfil:
                     Text("Tela do perfil")
                 }
@@ -67,12 +64,7 @@ struct ContentView: View {
                 )
                 )
             }
-            .background(RadialGradient(
-                gradient: Gradient(colors: [Color.init(UIColor(red: 124/255, green: 126/255, blue: 170/255, alpha: 1)), Color.init(UIColor(red: 18/255, green: 6/255, blue: 17/255, alpha: 1))]), center: .center, startRadius: 1, endRadius: 350
-            )
-            .ignoresSafeArea()
             .edgesIgnoringSafeArea(.bottom)
-            )
         }
     }
 }

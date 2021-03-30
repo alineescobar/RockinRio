@@ -36,7 +36,7 @@ struct Login: View {
                 
             
                     VStack (alignment:.leading){
-                        Text("SENHA:").fontWeight(.bold).font(.custom("BebasNeue-Regular", size: 20)).padding(.top)
+                        Text("SENHA:").fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.custom("BebasNeue-Regular", size: 20)).padding(.top)
                         TextField("", text: $senha).frame(height: 40.0).background(ColorManager.lightGray).border(ColorManager.lightGray, width: 2).cornerRadius(5)
                     }.padding(.horizontal)
                 
