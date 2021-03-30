@@ -19,7 +19,7 @@ struct ContentView: View {
                 case .programacao:
                     Text("Tela de programação")
                 case .minhaAgenda:
-                    Text("Tela da minha agenda")
+                    MinhaAgenda()
                 case .perfil:
                     Text("Tela do perfil")
                 }
