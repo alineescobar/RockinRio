@@ -13,6 +13,7 @@
 		16DDC92C26124C3A001CAF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDC92B26124C3A001CAF51 /* Assets.xcassets */; };
 		16DDC92F26124C3A001CAF51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDC92E26124C3A001CAF51 /* Preview Assets.xcassets */; };
 		16DDC93826125771001CAF51 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC93726125771001CAF51 /* Show.swift */; };
+		B13B70532613C692003A671D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B70522613C692003A671D /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		16DDC92E26124C3A001CAF51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		16DDC93026124C3A001CAF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16DDC93726125771001CAF51 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		B13B70522613C692003A671D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B13B70572613CD4C003A671D /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +59,12 @@
 		16DDC92626124C38001CAF51 /* RockinRio */ = {
 			isa = PBXGroup;
 			children = (
+				B13B70572613CD4C003A671D /* BebasNeue-Regular.ttf */,
 				16DDC92726124C38001CAF51 /* RockinRioApp.swift */,
 				16DDC92926124C38001CAF51 /* ContentView.swift */,
 				16DDC93726125771001CAF51 /* Show.swift */,
 				167793CF2613A3C1001D5483 /* ViewRouter.swift */,
+				B13B70522613C692003A671D /* Login.swift */,
 				16DDC92B26124C3A001CAF51 /* Assets.xcassets */,
 				16DDC93026124C3A001CAF51 /* Info.plist */,
 				16DDC92D26124C3A001CAF51 /* Preview Content */,
@@ -145,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167793D02613A3C1001D5483 /* ViewRouter.swift in Sources */,
+				B13B70532613C692003A671D /* Login.swift in Sources */,
 				16DDC93826125771001CAF51 /* Show.swift in Sources */,
 				16DDC92A26124C38001CAF51 /* ContentView.swift in Sources */,
 				16DDC92826124C38001CAF51 /* RockinRioApp.swift in Sources */,
@@ -277,6 +283,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RockinRio/Preview Content\"";
+				DEVELOPMENT_TEAM = LTT64UC4XT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RockinRio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -298,6 +305,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RockinRio/Preview Content\"";
+				DEVELOPMENT_TEAM = LTT64UC4XT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RockinRio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
