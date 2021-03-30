@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		167793D02613A3C1001D5483 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167793CF2613A3C1001D5483 /* ViewRouter.swift */; };
 		16DDC92826124C38001CAF51 /* RockinRioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC92726124C38001CAF51 /* RockinRioApp.swift */; };
 		16DDC92A26124C38001CAF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC92926124C38001CAF51 /* ContentView.swift */; };
 		16DDC92C26124C3A001CAF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDC92B26124C3A001CAF51 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		167793CF2613A3C1001D5483 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		16DDC92426124C38001CAF51 /* RockinRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockinRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DDC92726124C38001CAF51 /* RockinRioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockinRioApp.swift; sourceTree = "<group>"; };
 		16DDC92926124C38001CAF51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				16DDC92726124C38001CAF51 /* RockinRioApp.swift */,
 				16DDC92926124C38001CAF51 /* ContentView.swift */,
 				16DDC93726125771001CAF51 /* Show.swift */,
+				167793CF2613A3C1001D5483 /* ViewRouter.swift */,
 				16DDC92B26124C3A001CAF51 /* Assets.xcassets */,
 				16DDC93026124C3A001CAF51 /* Info.plist */,
 				16DDC92D26124C3A001CAF51 /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167793D02613A3C1001D5483 /* ViewRouter.swift in Sources */,
 				16DDC93826125771001CAF51 /* Show.swift in Sources */,
 				16DDC92A26124C38001CAF51 /* ContentView.swift in Sources */,
 				16DDC92826124C38001CAF51 /* RockinRioApp.swift in Sources */,
