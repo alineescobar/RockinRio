@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		167793D02613A3C1001D5483 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167793CF2613A3C1001D5483 /* ViewRouter.swift */; };
 		16AB45552614DD8C000F3D5E /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B13B70572613CD4C003A671D /* BebasNeue-Regular.ttf */; };
+		16AB45582614FDEF000F3D5E /* Atracao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB45572614FDEF000F3D5E /* Atracao.swift */; };
 		16DDC92826124C38001CAF51 /* RockinRioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC92726124C38001CAF51 /* RockinRioApp.swift */; };
 		16DDC92A26124C38001CAF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC92926124C38001CAF51 /* ContentView.swift */; };
 		16DDC92C26124C3A001CAF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDC92B26124C3A001CAF51 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		167793CF2613A3C1001D5483 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		16AB45572614FDEF000F3D5E /* Atracao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atracao.swift; sourceTree = "<group>"; };
 		16DDC92426124C38001CAF51 /* RockinRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockinRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DDC92726124C38001CAF51 /* RockinRioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockinRioApp.swift; sourceTree = "<group>"; };
 		16DDC92926124C38001CAF51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				16DDC92D26124C3A001CAF51 /* Preview Content */,
 				16E8ED582613EBBA0044A5F8 /* ShowRow.swift */,
 				16E8ED5B2613EBE20044A5F8 /* MinhaAgenda.swift */,
+				16AB45572614FDEF000F3D5E /* Atracao.swift */,
 			);
 			path = RockinRio;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				167793D02613A3C1001D5483 /* ViewRouter.swift in Sources */,
 				16E8ED592613EBBA0044A5F8 /* ShowRow.swift in Sources */,
 				B13B70532613C692003A671D /* Login.swift in Sources */,
+				16AB45582614FDEF000F3D5E /* Atracao.swift in Sources */,
 				16DDC93826125771001CAF51 /* Show.swift in Sources */,
 				16E8ED5C2613EBE20044A5F8 /* MinhaAgenda.swift in Sources */,
 				16DDC92A26124C38001CAF51 /* ContentView.swift in Sources */,
