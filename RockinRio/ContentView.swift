@@ -64,7 +64,10 @@ struct ContentView: View {
                 )
                 )
             }
-            .edgesIgnoringSafeArea(.bottom)
+            .background(RadialGradient(
+                gradient: Gradient(colors: [Color.init(UIColor(red: 124/255, green: 126/255, blue: 170/255, alpha: 1)), Color.init(UIColor(red: 18/255, green: 6/255, blue: 17/255, alpha: 1))]), center: .center, startRadius: 0, endRadius: 350
+            ))
+            .ignoresSafeArea()
         }
     }
 }
