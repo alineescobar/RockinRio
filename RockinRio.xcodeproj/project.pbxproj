@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		167793D02613A3C1001D5483 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167793CF2613A3C1001D5483 /* ViewRouter.swift */; };
+		16AB45552614DD8C000F3D5E /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B13B70572613CD4C003A671D /* BebasNeue-Regular.ttf */; };
 		16DDC92826124C38001CAF51 /* RockinRioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC92726124C38001CAF51 /* RockinRioApp.swift */; };
 		16DDC92A26124C38001CAF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC92926124C38001CAF51 /* ContentView.swift */; };
 		16DDC92C26124C3A001CAF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDC92B26124C3A001CAF51 /* Assets.xcassets */; };
@@ -145,6 +146,7 @@
 			files = (
 				16DDC92F26124C3A001CAF51 /* Preview Assets.xcassets in Resources */,
 				16DDC92C26124C3A001CAF51 /* Assets.xcassets in Resources */,
+				16AB45552614DD8C000F3D5E /* BebasNeue-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
