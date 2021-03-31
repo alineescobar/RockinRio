@@ -14,15 +14,18 @@ struct ShowRow: View {
                 HStack {
                     Text("Iron Maiden")
                         .foregroundColor(.white)
+                        .font(.custom("BebasNeue-Regular", size: 17))
                         .frame(alignment: .leading)
-                        .padding(.leading, 30)
+                        .padding(.leading, 68)
+                        .padding(.bottom, 9)
                     Spacer()
                 }
                 Image("IronMaiden")
                     .resizable()
                     .scaledToFit()
-                    .padding(.leading, 30)
-                    .padding(.trailing, 30)
+                    .padding(.leading, 68)
+                    .padding(.trailing, 68)
+
                 Spacer()
                 
                 VStack{
@@ -31,21 +34,24 @@ struct ShowRow: View {
                             HStack{
                                 Text("Palco mundo")
                                     .foregroundColor(.white)
+                                    .font(.custom("BebasNeue-Regular", size: 17))
                                     .frame(alignment: .leading)
-                                    .padding(.leading, 30)
+                                    .padding(.leading, 68)
                                 Spacer()
                             }
                             HStack{
                                 Text("25 setembro 2021")
                                     .foregroundColor(.white)
-                                    .padding(.leading, 30)
+                                    .font(.custom("BebasNeue-Regular", size: 17))
+                                    .padding(.leading, 68)
                                     .frame(alignment: .leading)
                                 Spacer()
                             }
                             HStack{
                                 Text("Horário: 22:00")
                                     .foregroundColor(.white)
-                                    .padding(.leading, 30)
+                                    .font(.custom("BebasNeue-Regular", size: 17))
+                                    .padding(.leading, 68)
                                     .frame(alignment: .leading)
                                 Spacer()
                             }
@@ -53,13 +59,14 @@ struct ShowRow: View {
                         HStack{
                             Image("CoracaoVermelho")
                                 .resizable()
-                                .frame(width: 25, height: 25,alignment: .trailing)
-                                .padding(.trailing, 30)
+                                .frame(width: 17, height: 17,alignment: .trailing)
+                                .padding(.trailing, 68)
                                 .padding(.top, -30)
                         }
                     }
                     Spacer()
                 }
+                
             }
         }
     }
