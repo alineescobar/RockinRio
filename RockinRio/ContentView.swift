@@ -21,7 +21,7 @@ struct ContentView: View {
                 case .minhaAgenda:
                     MinhaAgenda()
                 case .perfil:
-                    Text("Tela do perfil")
+                    Perfil()
                 }
                 Spacer()
                 HStack {
