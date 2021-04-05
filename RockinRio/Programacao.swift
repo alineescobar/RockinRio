@@ -15,7 +15,7 @@ enum Palco: String, CaseIterable, Identifiable {
 
 struct Programacao: View {
     @State private var selected = Palco.mundo
-    @State var diaEvento = "<  25 DE SETEMBRO  >"
+    @State var diaEvento = "  25 DE SETEMBRO  "
     static let lightGray = Color("LightGray")
 
     var body: some View {
@@ -32,78 +32,86 @@ struct Programacao: View {
                 Text("PALCO SUNSET").tag(Palco.sunset).font(.custom("BebasNeue-Regular", size: 20))
             }.pickerStyle(SegmentedPickerStyle()).padding(.horizontal, 30).font(.custom("BebasNeue-Regular", size: 20))
 
-            Text("\(diaEvento)").bold().font(.custom("BebasNeue-Regular", size: 20)).foregroundColor(.white).padding(.top, 20)
+            HStack {
+                Button("<"){}.padding(.top, 18).foregroundColor(.white)
+                Text("\(diaEvento)").bold().font(.custom("BebasNeue-Regular", size: 20)).foregroundColor(.white).padding(.top, 20)
+                Button(">"){}.padding(.top, 18).foregroundColor(.white)
+            }
             ScrollView {
                 switch selected {
                 case Palco.mundo:
-                    VStack(alignment: .leading){
-                        Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                        Image("Iron Maiden")
-                            .resizable()
-                            .scaledToFit()
-                            .padding(.leading, 30)
-                            .padding(.trailing, 30)
-                        HStack{
-                            Text("25 SETEMRBO 2021").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                            Spacer()
-                            Image("CoracaoBordaBranca")                                .resizable()
-                                .frame(width: 25, height: 25,alignment: .trailing)
-                                .padding(.trailing, 40)
-                        }
-                        Text("HORÁRIO: 22:00").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                    }.foregroundColor(.white).padding(.top, 20)
+                    VStack {
+                        VStack(alignment: .leading){
+                            Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                            Image("Iron Maiden")
+                                .resizable()
+                                .scaledToFit()
+                                .padding(.leading, 30)
+                                .padding(.trailing, 30)
+                            HStack{
+                                Text("25 SETEMRBO 2021").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                                Spacer()
+                                Image("CoracaoBordaBranca")                                .resizable()
+                                    .frame(width: 25, height: 25,alignment: .trailing)
+                                    .padding(.trailing, 40)
+                            }
+                            Text("HORÁRIO: 22:00").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                        }.foregroundColor(.white).padding(.top, 20)
+                    }
                     
                 case Palco.sunset:
-                    VStack(alignment: .leading){
-                        Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                        Image("Iron Maiden")
-                            .resizable()
-                            .scaledToFit()
-                            .padding(.leading, 30)
-                            .padding(.trailing, 30)
-                        HStack{
-                            Text("25 SETEMRBO 2021").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                            Spacer()
-                            Image("CoracaoBordaBranca")                                .resizable()
-                                .frame(width: 25, height: 25,alignment: .trailing)
-                                .padding(.trailing, 40)
-                        }
-                        Text("HORÁRIO: 22:00").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                    }.foregroundColor(.white).padding(.top, 20)
-                    
-                    VStack(alignment: .leading){
-                        Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                        Image("Iron Maiden")
-                            .resizable()
-                            .scaledToFit()
-                            .padding(.leading, 30)
-                            .padding(.trailing, 30)
-                        HStack{
-                            Text("25 SETEMRBO 2021").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                            Spacer()
-                            Image("CoracaoBordaBranca")                                .resizable()
-                                .frame(width: 25, height: 25,alignment: .trailing)
-                                .padding(.trailing, 40)
-                        }
-                        Text("HORÁRIO: 22:00").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                    }.foregroundColor(.white).padding(.top, 20)
-                    
-                    VStack(alignment: .leading){
-                        Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                        Image("Iron Maiden")
-                            .resizable()
-                            .scaledToFit()
-                            .padding(.leading, 30)
-                            .padding(.trailing, 30)
-                        HStack{
-                            Text("25 SETEMRBO 2021").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                            Spacer()
-                            Image("CoracaoBordaBranca")                                .resizable()
-                                .frame(width: 25, height: 25,alignment: .trailing)
-                                .padding(.trailing, 40)
-                        }
-                        Text("HORÁRIO: 22:00").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
-                    }.foregroundColor(.white).padding(.top, 20)
+                    VStack {
+                        VStack(alignment: .leading){
+                            Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                            Image("Iron Maiden")
+                                .resizable()
+                                .scaledToFit()
+                                .padding(.leading, 30)
+                                .padding(.trailing, 30)
+                            HStack{
+                                Text("25 SETEMRBO 2021").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                                Spacer()
+                                Image("CoracaoBordaBranca")                                .resizable()
+                                    .frame(width: 25, height: 25,alignment: .trailing)
+                                    .padding(.trailing, 40)
+                            }
+                            Text("HORÁRIO: 22:00").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                        }.foregroundColor(.white).padding(.top, 20)
+                        
+                        VStack(alignment: .leading){
+                            Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                            Image("Iron Maiden")
+                                .resizable()
+                                .scaledToFit()
+                                .padding(.leading, 30)
+                                .padding(.trailing, 30)
+                            HStack{
+                                Text("25 SETEMRBO 2021").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                                Spacer()
+                                Image("CoracaoBordaBranca")                                .resizable()
+                                    .frame(width: 25, height: 25,alignment: .trailing)
+                                    .padding(.trailing, 40)
+                            }
+                            Text("HORÁRIO: 22:00").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                        }.foregroundColor(.white).padding(.top, 20)
+                        
+                        VStack(alignment: .leading){
+                            Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                            Image("Iron Maiden")
+                                .resizable()
+                                .scaledToFit()
+                                .padding(.leading, 30)
+                                .padding(.trailing, 30)
+                            HStack{
+                                Text("25 SETEMRBO 2021").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                                Spacer()
+                                Image("CoracaoBordaBranca")                                .resizable()
+                                    .frame(width: 25, height: 25,alignment: .trailing)
+                                    .padding(.trailing, 40)
+                            }
+                            Text("HORÁRIO: 22:00").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
+                        }.foregroundColor(.white).padding(.top, 20)
+                    }
                 }
             }
             Spacer()
