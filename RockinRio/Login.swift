@@ -14,6 +14,7 @@ struct ColorManager {
 }
 
 struct Login: View {
+    @State private var clicked1 = false
     @State var email: String = ""
     @State var senha: String = ""
     let appleImage = Image(systemName: "applelogo")
@@ -45,7 +46,7 @@ struct Login: View {
         
                 VStack{
                     Button(action: {
-                       // Text("Entrar")
+                        clicked1 = true
                     }){
                         Text("ENTRAR")
                             .fontWeight(.bold)
@@ -56,7 +57,10 @@ struct Login: View {
                             .border(ColorManager.blueLogin, width: 2)
                             .background(ColorManager.blueLogin)
                             .cornerRadius(10)
-                    }
+                    }.fullScreenCover(isPresented: $clicked1, content:  {
+                        ContentView(viewRouter: ViewRouter())
+                    })
+                    
                     
                     HStack{
                         Text("Não possui conta?").foregroundColor(.gray)
@@ -117,6 +121,7 @@ struct Login: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(ColorManager.lightGray)
         .edgesIgnoringSafeArea(.all)
+        .navigationBarHidden(true)
     }
 }
 
