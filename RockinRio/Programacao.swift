@@ -22,9 +22,10 @@ struct Programacao: View {
         VStack{
             VStack(alignment: .leading){
                 HStack{
-                    Image("2logo").resizable().frame(width: 65, height: 65, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    Image("2logo").resizable().frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     Spacer()
                 }
+                .padding(.leading)
             }
             
             Picker("Palco", selection: $selected) {
