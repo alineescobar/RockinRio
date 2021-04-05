@@ -26,7 +26,7 @@ struct ShowRow: View {
                         }
                         Image(banda.nomeDaBanda)
                             .resizable()
-                            .scaledToFit()
+                            .frame(width: 240, height: 170)
                             .padding(.leading, 68)
                             .padding(.trailing, 68)
                         
@@ -55,7 +55,7 @@ struct ShowRow: View {
                                         Text("Horário: 22:00")
                                             .foregroundColor(.white)
                                             .font(.custom("BebasNeue-Regular", size: 17))
-                                            .padding(.leading, 68)
+                                            .padding(.leading, 70)
                                             .frame(alignment: .leading)
                                         Spacer()
                                     }
@@ -63,9 +63,9 @@ struct ShowRow: View {
                                 HStack{
                                     Image("CoracaoVermelho")
                                         .resizable()
-                                        .frame(width: 17, height: 17,alignment: .trailing)
-                                        .padding(.trailing, 68)
-                                        .padding(.top, -30)
+                                        .frame(width: 17, height: 15,alignment: .trailing)
+                                        .padding(.trailing, 80)
+                                        .padding(.top, -25)
                                 }
                             }
                             Spacer()
