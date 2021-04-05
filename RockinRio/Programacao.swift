@@ -23,7 +23,7 @@ struct Programacao: View {
     @State var email: String = ""
     @State var senha: String = ""
     @State private var selectedFlavor = Palco.mundo
-    @State var diaEvento = "<  TESTE DE SETEMBRO  >"
+    @State var diaEvento = "<  25 DE SETEMBRO  >"
     let appleImage = Image(systemName: "applelogo")
     let fbImage = Image("fb")
     let googleImage = Image("Google")
