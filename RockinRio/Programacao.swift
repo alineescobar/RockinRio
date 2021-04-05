@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct Cores {
-    static let lightGray = Color("LightGray")
-    static let blueFB = Color("blueFB")
-    static let blueLogin = Color("blueLogin")
-}
-
 enum Palco: String, CaseIterable, Identifiable {
     case mundo
     case sunset
@@ -20,32 +14,27 @@ enum Palco: String, CaseIterable, Identifiable {
 }
 
 struct Programacao: View {
-    @State var email: String = ""
-    @State var senha: String = ""
-    @State private var selectedFlavor = Palco.mundo
+    @State private var selected = Palco.mundo
     @State var diaEvento = "<  25 DE SETEMBRO  >"
-    let appleImage = Image(systemName: "applelogo")
-    let fbImage = Image("fb")
-    let googleImage = Image("Google")
     static let lightGray = Color("LightGray")
 
     var body: some View {
         VStack{
             VStack(alignment: .leading){
                 HStack{
-                    Image("2logo").resizable().frame(width: 80, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    Image("2logo").resizable().frame(width: 65, height: 65, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     Spacer()
                 }
             }
             
-            Picker("Palco", selection: $selectedFlavor) {
+            Picker("Palco", selection: $selected) {
                 Text("PALCO MUNDO").tag(Palco.mundo).font(.custom("BebasNeue-Regular", size: 20))
                 Text("PALCO SUNSET").tag(Palco.sunset).font(.custom("BebasNeue-Regular", size: 20))
             }.pickerStyle(SegmentedPickerStyle()).padding(.horizontal, 30).font(.custom("BebasNeue-Regular", size: 20))
 
             Text("\(diaEvento)").bold().font(.custom("BebasNeue-Regular", size: 20)).foregroundColor(.white).padding(.top, 20)
             ScrollView {
-                switch selectedFlavor {
+                switch selected {
                 case Palco.mundo:
                     VStack(alignment: .leading){
                         Text("IRON MAIDEN").bold().multilineTextAlignment(.leading).padding(.leading, 30).font(.custom("BebasNeue-Regular", size: 20))
