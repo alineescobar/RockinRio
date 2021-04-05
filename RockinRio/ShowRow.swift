@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ShowRow: View {
-    let bandas = atracoes
+    let bandas: [Atracao]
     
     var body: some View {
         ScrollView(.vertical) {
@@ -36,7 +36,7 @@ struct ShowRow: View {
                             HStack{
                                 VStack{
                                     HStack{
-                                        Text("Palco ")
+                                        Text("Palco \(banda.palco)")
                                             .foregroundColor(.white)
                                             .font(.custom("BebasNeue-Regular", size: 17))
                                             .frame(alignment: .leading)
@@ -44,7 +44,7 @@ struct ShowRow: View {
                                         Spacer()
                                     }
                                     HStack{
-                                        Text("25 setembro 2021")
+                                        Text(banda.dataDoShow)
                                             .foregroundColor(.white)
                                             .font(.custom("BebasNeue-Regular", size: 17))
                                             .padding(.leading, 68)
@@ -52,7 +52,7 @@ struct ShowRow: View {
                                         Spacer()
                                     }
                                     HStack{
-                                        Text("Horário: 22:00")
+                                        Text("Horário: \(banda.horario)")
                                             .foregroundColor(.white)
                                             .font(.custom("BebasNeue-Regular", size: 17))
                                             .padding(.leading, 70)
@@ -80,6 +80,6 @@ struct ShowRow: View {
 
 struct ShowRow_Previews: PreviewProvider {
     static var previews: some View {
-        ShowRow()
+        ShowRow(bandas: atracoes)
     }
 }
