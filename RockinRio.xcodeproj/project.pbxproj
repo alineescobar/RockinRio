@@ -19,6 +19,7 @@
 		16E8ED5C2613EBE20044A5F8 /* MinhaAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8ED5B2613EBE20044A5F8 /* MinhaAgenda.swift */; };
 		B13B70532613C692003A671D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B70522613C692003A671D /* Login.swift */; };
 		B6866351261A85A80074FAB7 /* Detalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6866350261A85A80074FAB7 /* Detalhes.swift */; };
+		FD16EC1E261B7585005C6FAC /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16EC1D261B7585005C6FAC /* OnBoarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B13B70522613C692003A671D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		B13B70572613CD4C003A671D /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
 		B6866350261A85A80074FAB7 /* Detalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detalhes.swift; sourceTree = "<group>"; };
+		FD16EC1D261B7585005C6FAC /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				16DDC93726125771001CAF51 /* Show.swift */,
 				167793CF2613A3C1001D5483 /* ViewRouter.swift */,
 				B13B70522613C692003A671D /* Login.swift */,
+				FD16EC1D261B7585005C6FAC /* OnBoarding.swift */,
 				16DDC92B26124C3A001CAF51 /* Assets.xcassets */,
 				16DDC93026124C3A001CAF51 /* Info.plist */,
 				16DDC92D26124C3A001CAF51 /* Preview Content */,
@@ -167,6 +170,7 @@
 				16E8ED592613EBBA0044A5F8 /* ShowRow.swift in Sources */,
 				B6866351261A85A80074FAB7 /* Detalhes.swift in Sources */,
 				B13B70532613C692003A671D /* Login.swift in Sources */,
+				FD16EC1E261B7585005C6FAC /* OnBoarding.swift in Sources */,
 				16AB45582614FDEF000F3D5E /* Atracao.swift in Sources */,
 				16DDC93826125771001CAF51 /* Show.swift in Sources */,
 				16E8ED5C2613EBE20044A5F8 /* MinhaAgenda.swift in Sources */,
