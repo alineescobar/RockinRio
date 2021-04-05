@@ -17,6 +17,7 @@
 		16DDC93826125771001CAF51 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC93726125771001CAF51 /* Show.swift */; };
 		16E8ED592613EBBA0044A5F8 /* ShowRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8ED582613EBBA0044A5F8 /* ShowRow.swift */; };
 		16E8ED5C2613EBE20044A5F8 /* MinhaAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8ED5B2613EBE20044A5F8 /* MinhaAgenda.swift */; };
+		2779E022261B8D0400AA8BEC /* Programacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2779E021261B8D0400AA8BEC /* Programacao.swift */; };
 		B13B70532613C692003A671D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B70522613C692003A671D /* Login.swift */; };
 		B6866351261A85A80074FAB7 /* Detalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6866350261A85A80074FAB7 /* Detalhes.swift */; };
 		FD16EC1E261B7585005C6FAC /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16EC1D261B7585005C6FAC /* OnBoarding.swift */; };
@@ -34,6 +35,7 @@
 		16DDC93726125771001CAF51 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		16E8ED582613EBBA0044A5F8 /* ShowRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRow.swift; sourceTree = "<group>"; };
 		16E8ED5B2613EBE20044A5F8 /* MinhaAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaAgenda.swift; sourceTree = "<group>"; };
+		2779E021261B8D0400AA8BEC /* Programacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programacao.swift; sourceTree = "<group>"; };
 		B13B70522613C692003A671D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		B13B70572613CD4C003A671D /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
 		B6866350261A85A80074FAB7 /* Detalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detalhes.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				16E8ED5B2613EBE20044A5F8 /* MinhaAgenda.swift */,
 				B6866350261A85A80074FAB7 /* Detalhes.swift */,
 				16AB45572614FDEF000F3D5E /* Atracao.swift */,
+				2779E021261B8D0400AA8BEC /* Programacao.swift */,
 			);
 			path = RockinRio;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				B6866351261A85A80074FAB7 /* Detalhes.swift in Sources */,
 				B13B70532613C692003A671D /* Login.swift in Sources */,
 				FD16EC1E261B7585005C6FAC /* OnBoarding.swift in Sources */,
+				2779E022261B8D0400AA8BEC /* Programacao.swift in Sources */,
 				16AB45582614FDEF000F3D5E /* Atracao.swift in Sources */,
 				16DDC93826125771001CAF51 /* Show.swift in Sources */,
 				16E8ED5C2613EBE20044A5F8 /* MinhaAgenda.swift in Sources */,
