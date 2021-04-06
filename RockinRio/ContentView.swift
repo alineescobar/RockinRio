@@ -15,7 +15,8 @@ struct ContentView: View {
                 Spacer()
                 switch viewRouter.currentPage {
                 case .pesquisa:
-                    Text("Tela de pesquisa")
+                    Pesquisa()
+                        .padding(.bottom, -10)
                 case .programacao:
                     Programacao()
                 case .minhaAgenda:

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		167793D02613A3C1001D5483 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167793CF2613A3C1001D5483 /* ViewRouter.swift */; };
+		169731C2261BD9C400F33D52 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169731C1261BD9C400F33D52 /* SearchBar.swift */; };
+		169731C5261BDB0000F33D52 /* Pesquisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169731C4261BDB0000F33D52 /* Pesquisa.swift */; };
 		16AB45552614DD8C000F3D5E /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B13B70572613CD4C003A671D /* BebasNeue-Regular.ttf */; };
 		16AB45582614FDEF000F3D5E /* Atracao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB45572614FDEF000F3D5E /* Atracao.swift */; };
 		16DDC92826124C38001CAF51 /* RockinRioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDC92726124C38001CAF51 /* RockinRioApp.swift */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		167793CF2613A3C1001D5483 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		169731C1261BD9C400F33D52 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		169731C4261BDB0000F33D52 /* Pesquisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pesquisa.swift; sourceTree = "<group>"; };
 		16AB45572614FDEF000F3D5E /* Atracao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atracao.swift; sourceTree = "<group>"; };
 		16DDC92426124C38001CAF51 /* RockinRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockinRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DDC92726124C38001CAF51 /* RockinRioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockinRioApp.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				B13B70572613CD4C003A671D /* BebasNeue-Regular.ttf */,
 				16DDC92726124C38001CAF51 /* RockinRioApp.swift */,
 				16DDC92926124C38001CAF51 /* ContentView.swift */,
+				169731C4261BDB0000F33D52 /* Pesquisa.swift */,
+				169731C1261BD9C400F33D52 /* SearchBar.swift */,
 				16DDC93726125771001CAF51 /* Show.swift */,
 				167793CF2613A3C1001D5483 /* ViewRouter.swift */,
 				B13B70522613C692003A671D /* Login.swift */,
@@ -172,6 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169731C5261BDB0000F33D52 /* Pesquisa.swift in Sources */,
+				169731C2261BD9C400F33D52 /* SearchBar.swift in Sources */,
 				167793D02613A3C1001D5483 /* ViewRouter.swift in Sources */,
 				16E8ED592613EBBA0044A5F8 /* ShowRow.swift in Sources */,
 				B6866351261A85A80074FAB7 /* Detalhes.swift in Sources */,

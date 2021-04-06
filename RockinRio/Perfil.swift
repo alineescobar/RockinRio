@@ -77,7 +77,7 @@ struct Perfil: View {
                 }
                 .padding(.bottom)
             }
-            .frame(width:307, height: 700)
+            .frame(width:307, height: 695)
             .background(Color.white)
             .cornerRadius(14)
         
