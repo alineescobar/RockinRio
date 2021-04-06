@@ -25,6 +25,7 @@ struct ShowRow: View {
                     }
                     Image(banda.nomeDaBanda)
                         .resizable()
+                        .cornerRadius(10)
                         .frame(width: 280, height: 175)
                         .padding(.leading, 68)
                         .padding(.trailing, 68)

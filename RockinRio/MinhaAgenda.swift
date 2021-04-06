@@ -11,6 +11,7 @@ struct MinhaAgenda: View {
     @State var bandasExibidas: [Atracao]?
     
     var body: some View {
+        
         NavigationView {
             VStack{
                 Spacer()
@@ -22,7 +23,6 @@ struct MinhaAgenda: View {
                         .padding(.top, 50)
                     Spacer()
                 }
-                
                 Text("Minha agenda")
                     .font(.custom("BebasNeue-Regular", size: 20))
                     .foregroundColor(.white)
